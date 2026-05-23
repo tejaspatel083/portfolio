@@ -16,4 +16,7 @@ export default defineConfig({
       routes: ["/"],
     },
   },
+  vite: {
+    base: "/tejaspatel.github.io/",
+  },
 });

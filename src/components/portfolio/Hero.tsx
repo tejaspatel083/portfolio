@@ -82,7 +82,7 @@ export function Hero() {
           >
             <NeonButton variant="purple" size="lg" onClick={() => {
               const link = document.createElement("a");
-              link.href = "/Tejas_Patel_Resume.pdf";
+              link.href = "./Tejas_Patel_Resume.pdf";
               link.download = "Tejas_Patel_Resume.pdf";
               document.body.appendChild(link);
               link.click();
@@ -107,7 +107,7 @@ export function Hero() {
             {/* Glass panel container for the image */}
             <div className="glass-panel neon-border relative overflow-hidden rounded-2xl p-2 max-w-[380px] aspect-square shadow-2xl">
               <img
-                src="/tejas_avatar.png"
+                src="./tejas_avatar.png"
                 alt="Tejas Patel - 3D Avatar"
                 className="w-full h-full object-cover rounded-xl"
               />
