@@ -17,6 +17,6 @@ export default defineConfig({
     },
   },
   vite: {
-    base: "/tejaspatel.github.io/",
+    base: "/portfolio/",
   },
 });
